@@ -28,12 +28,12 @@ hr {
     size: 1px;
 }
 .dropdown-menu {
-    background-color: #1F6B75;
-}
-.dropdown-menu {
-    width: 500px;
+    width: 400px;
 }
 .btn.show {
     background-color: #3609db; /* Цвет фона кнопки */
     color: white; /* Цвет текста кнопки */
+  }
+  .refresh{
+    width: 20px;
   }

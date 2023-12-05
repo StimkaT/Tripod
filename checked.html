@@ -3,19 +3,195 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tripod entrance</title>
+    <title>Checked</title>
     <!-- <link rel="shortcut icon" href="img/icon.png" type="image/x-icon"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/icon.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="mb-3 d-flex align-items-center">
-          
-            <a href="Entrance.html" class="w-100">
-                <button type="button" class="btn btn-primary w-100">На главную<br></button>
-            </a>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container">
+              <div class="col-3">
+                  <div class="row">
+                <div class="col-4">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="icon-usb" alt="Devices"></i> 
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="icon-chat"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <a href="index.html">
+                    <button class="btn btn-secondary" type="button">
+                      <i class="icon-home"></i>
+                    </button> 
+                  </a>           
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="col-6 container">
+              <div class="row text-center">
+                <span class="navbar-text text-white border">
+                  Добавить рамку и алгоритм для вывода уведомлений
+                </span>  
+              </div>
+            </div>
+    
+            <div class="col-3 container">
+              <div class="row">
+            <div class="col-4">
+              <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="icon-megaphone"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="icon-cog"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="icon-user-circle"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton3">    
+                  <div class="d-flex align-items-center p-3">
+                    <img src="img/3.jpg" class="rounded-circle logIc d-none d-sm-block" alt="Пользователь 1">
+                    <span class="ps-3"></span>
+                    <a href="index.html" class="w-100">
+                      <button type="button" class="btn btn-primary w-100">Пользователь 1<br><span class="text-muted small">админ</span></button>
+                    </a>
+                  </div>
+                  <div class="d-flex align-items-center p-3">
+                    <img src="img/1.jpg" class="rounded-circle logIc d-none d-sm-block" alt="Пользователь 2">
+                    <span class="ps-3"></span>
+                    <a href="index.html" class="w-100">
+                      <button type="button" class="btn btn-primary w-100">Пользователь 2
+                        <br>
+                        <span class="text-muted small">админ</span>
+                      </button>
+                      </a>
+                  </div>
+                  <hr>
+                  <div class="d-flex align-items-center text-center p-2">
+                      <a href="Entrance.html" class="w-100">
+                        <button type="button" class="btn btn-primary w-50 align-center">
+                          QUIT
+                        </button>
+                      </a>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            </div> 
+          </div>
+          </div>
+        </nav>
+        <section class="container">
+            <div class="row">
+                <!--Вывод видео-->
+                <div class="col-7">
+                <div class="row">
+                    <div class="card ratio ratio-16x9 mt-3">
+                        <iframe src="https://www.youtube.com/embed/mEQ8NJsAowg" title="Player One" frameborder="0" allow="accelerometer; gyroscope;" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="row text-center p-3 mt-3 border bg-success">
+                    <div class="container">
+                    <div class="row text-center">
+                        <div>
+                        <button>top</button>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6 text-center">
+                        <button>left</button>
+                        </div>
+                        <div class="col-6 text-center">
+                        <button>rigth</button>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div>
+                        <button>bottom</button>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-3">
+                        <div class="col-3">
+                        <button>ближе</button>
+                        </div>
+                        <div class="col-3">
+                            <button>дальше</button>
+                        </div>
+                        <div class="col-3">
+                            <button>быстрее</button>
+                        </div>
+                        <div class="col-3">
+                            <button>медленнее</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <!--Панель данных-->
+                <div class="col-5 mt-3">
+                    <div class="row mt-2">
+                        <h5 class=" col-11">Information</h5>
+                        <button class="col-1 btn btn-light">
+                            <i class="icon-cw" alt="refresh"></i>
+                        </button>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-3"> Type 1</div>
+                        <div class="col-8"> Data</div>
+                        <button class="col-1 btn btn-light">
+                            <i class="icon-cw" alt="refresh"></i>
+                        </button>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-3"> Type 1</div>
+                        <div class="col-8"> Data</div>
+                        <button class="col-1 btn btn-light">
+                            <i class="icon-cw" alt="refresh"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
